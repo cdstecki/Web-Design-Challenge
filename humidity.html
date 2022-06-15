@@ -14,7 +14,7 @@
 
     <link href="style.css" rel="stylesheet">
 
-    <title>Latitude Landing Page</title>
+    <title>Humidity</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <!-- Start of navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"> Latitude </a>
+            <a class="navbar-brand" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,7 +35,7 @@
                 Plots
               </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="max_temperature.html">Max Temperature</a></li>
+                                    <li><a class="dropdown-item" href="max_temperature.html">Temperature</a></li>
                                     <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
                                     <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
                                     <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
@@ -55,53 +55,53 @@
         <div class="row ">
             <div class="col-8">
                 <article class="description-content">
-                    <h1 class="description-header">Summary: Latitude vs. X</h1>
+                    <h1 class="description-header">Humidity</h1>
                     <hr class="description-hr" />
-                    <p><img src="Resources/assets/images/max_temperature.png" style="float:left" alt="Latitude vs. Max Temperature" class="banner-image"> The purpose of this project
-                        was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations
-                        created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <div class="text-center">
+                        <img src="Resources/assets/images/humidity.png" alt="Latitude vs. Humidity" height="400" width="400">
+                        <p>It does not look like there is any correlation in humdity versus latitude. Although one could deduce that from the sample data that many cities have close to 100% humidity and those cities seem to be somewhat close to the equator.
+                        </p>
                 </article>
-            </div>
+                </div>
 
 
-            <!-- Start of Visualizations Right sidebar -->
-            <div class="col-4">
-                <div class="container img-grid">
-                    <h1 class="description-header">Visualizations</h1>
-                    <hr class="description-hr" />
-                    <div class="row row-cols-2">
-                        <div class="col">
-                            <div>
-                                <a href="max_temperature.html"><img src="Resources/assets/images/max_temperature.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                <!-- Start of Visualizations Right sidebar -->
+                <div class="col-4">
+                    <div class="container img-grid">
+                        <h1 class="description-header">Visualizations</h1>
+                        <hr class="description-hr" />
+                        <div class="row row-cols-2">
+                            <div class="col">
+                                <div>
+                                    <a href="max_temperature.html"><img src="Resources/assets/images/max_temperature.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div>
-                                <a href="humidity.html"><img src="Resources/assets/images/humidity.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                            <div class="col">
+                                <div>
+                                    <a href="humidity.html"><img src="Resources/assets/images/humidity.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div>
-                                <a href="cloudiness.html"><img src="Resources/assets/images/cloudiness.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                            <div class="col">
+                                <div>
+                                    <a href="cloudiness.html"><img src="Resources/assets/images/cloudiness.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div>
-                                <a href="wind_speed.html"><img src="Resources/assets/images/wind_speed.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                            <div class="col">
+                                <div>
+                                    <a href="wind_speed.html"><img src="Resources/assets/images/wind_speed.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!-- End of the Visualizations sidebar -->
                 </div>
-                <!-- End of the Visualizations sidebar -->
             </div>
+
+
+
+
+            <!-- End of container -->
         </div>
-
-
-
-
-        <!-- End of container -->
-    </div>
 
 
 
